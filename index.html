@@ -4,64 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve Cutler</title>
-
-    <style>
-       
-        body {
-            margin-top: 10px; 
-            margin-right: 150px; 
-            margin-bottom: 10px; 
-            margin-left: 150px;
-            text-align: center;
-            align-items: center;
-        }
-        nav {
-            text-align: center;
-        }
-        #sections {
-            display: flex; 
-            text-align: center;
-            align-items: center;
-        }
-        .section {
-            flex: 1; 
-        }
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin-top: 30px; margin-right: 150px; margin-bottom: 20px; margin-left: 150px;">
-    <header>
 
-        <nav>
-            
-            <a href="index.html">Home</a> -- 
-            <a href="about.html">About Me</a> -- 
-            <a href="projects.html">Portfolio Projects</a> -- 
-            <a href="gallery.html">Photography/Art Gallery</a> --
-            <a href="resume.html">Resume/CV</a> -- 
-            <a href="contact.html">Contact</a>
+<body>
+    <div class="container">
+    <header>
+        <nav>        
+            <a href="index.html"><button  class="navbut">Home</button></a>
+            <a href="about.html"><button class="navbut">About Me</button></a>
+            <a href="projects.html"><button class="navbut">Portfolio Projects</button></a>
+            <a href="gallery.html"><button class="navbut">Photography</button></a>
+            <a href="resume.html"><button class="navbut">Resume/CV</button></a>
+            <a href="contact.html"><button class="navbut">Contact</button></a>
         
-    </nav>
+        </nav>
     </header>
     <main>
-        
-            <h1 style="font-size: 44px; font-weight:bold; margin-top: 40px; margin-bottom: 60px; font-family: Verdana, sans-serif;">
-                STEVE CUTLER
-            </h1>
+        <img id ="titleimage" src="SteveCutlerIcon.png" alt="Steve Cutler">
         
         <div id="sections">
+            
             <div class="section">
-                <img src="gif1.webp" alt="Welcome!" width="400" > 
+                <img class="nostyle" src="gif1.webp" alt="Welcome!" > 
             </div>
+
             <div class="section">
-                <img src="2.jpg" alt="Picture of me" width="500" > 
+                <img src="2.jpg" alt="Picture of me" > 
             </div>
+
         </div>    
     </main>
     <footer>
-        <br><br>
-        <p style = "font-size:10px;  font-family: Verdana, sans-serif;">Steve Cutler<br>2024</p>
+        <p id="footer">Steve Cutler<br>2024</p>
        
     </footer>
+</div>
 </body>
 </html>
